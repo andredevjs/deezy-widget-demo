@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { DeezyWidget } from "deezy-widget";
 // TODO: FIX
 
@@ -8,10 +7,6 @@ console.log("Loading widget", DeezyWidget);
 console.log(DeezyWidget);
 
 function App() {
-  useEffect(() => {
-    console.log("loaded");
-  }, [DeezyWidget]);
-
   return (
     <div className="App">
       <header className="App-header">
