@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { DeezyWidget } from "deezy-widget";
+// TODO: FIX
+import "deezy-widget/dist/style.css";
 import "./App.css";
 console.log(DeezyWidget);
 
