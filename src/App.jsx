@@ -1,7 +1,7 @@
 import { DeezyWidget } from "deezy-widget";
 // TODO: FIX
 
-import "deezy-widget/dist/style.css";
+// import "deezy-widget/dist/style.css";
 import "./App.css";
 console.log("Loading widget", DeezyWidget);
 console.log(DeezyWidget);
