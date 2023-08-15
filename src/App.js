@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import * as lib from "deezy-widget";
 const { DeezyWidget } = lib;
-console.log(lib);
+
 function App() {
   return (
     <div className="App">
