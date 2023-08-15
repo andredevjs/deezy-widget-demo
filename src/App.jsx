@@ -1,6 +1,6 @@
+import { DeezyWidget } from "deezy-widget";
 import "./App.css";
-import * as lib from "deezy-widget";
-const { DeezyWidget } = lib;
+console.log(DeezyWidget);
 
 function App() {
   return (
