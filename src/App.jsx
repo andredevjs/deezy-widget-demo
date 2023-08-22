@@ -1,5 +1,5 @@
 import {
-  DeezyWidget,
+  CurrentBid,
   InscriptionPreview,
   BidWidget,
   ListBids,
@@ -36,7 +36,7 @@ function App() {
                   <p className="inscription-title">Babe 404</p>
                 </div>
                 <div>
-                  <DeezyWidget useBidding inscriptionId={inscriptionId} />
+                  <CurrentBid inscriptionId={inscriptionId} />
                 </div>
                 <div className="bid-form">
                   <BidWidget
