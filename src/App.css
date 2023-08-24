@@ -8,6 +8,10 @@
   src: url("../public/fonts/PTSans-Regular.ttf");
 }
 
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -136,117 +140,4 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-
-/* Current Bid text */
-.bid-title {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  line-height: 22px;
-  color: rgb(121, 128, 156);
-  font-weight: 700;
-}
-
-.price-btc {
-  font-family: "PT Sans", sans-serif;
-  font-size: 32px;
-  line-height: 32px;
-  color: rgb(21, 28, 59);
-  font-weight: 700;
-}
-
-.price-btc img {
-  height: 32px;
-}
-
-.price-fiat {
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  line-height: 32px;
-  color: rgb(21, 28, 59);
-  margin-top: 6px;
-}
-
-/* Bid input */
-.input-group {
-  margin-bottom: 12px;
-}
-
-.input-group input {
-  border-radius: 12px;
-  font-size: 25px;
-  height: 54px;
-  font-weight: 700;
-  line-height: 37.5px;
-  padding: 6px 12px;
-  outline: none;
-  border-top-right-radius: 12px !important; /* Overwrite bootstrap */
-  border-bottom-right-radius: 12px !important; /* Overwrite bootstrap */
-}
-
-.input-group input:focus {
-  outline: none;
-  border-color: rgb(33, 37, 41) !important; /* Overwrite bootstrap */
-  box-shadow: none !important; /* Overwrite bootstrap */
-}
-
-.input-group input::placeholder {
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  font-color: #79809c;
-  font-size: 25px;
-  opacity: 0.3;
-}
-
-.bit-continue-button button {
-  border-radius: 12px;
-  margin-left: 8px;
-  color: rgb(255, 255, 255);
-  font-family: "PT Sans", sans-serif;
-  font-size: 19px;
-  font-weight: 700;
-  background-color: #212529;
-  border: 1px solid #212529;
-  text-wrap: nowrap;
-  height: 54px;
-  padding: 0px 12px;
-}
-
-.bit-continue-button button.disabled {
-  opacity: 0.65;
-  background-color: rgb(128, 128, 128);
-  border: 1px solid rgb(128, 128, 128);
-}
-
-/* Bid list */
-.bid-list {
-  max-width: 84%;
-}
-.bid {
-  grid-template-columns: 77% 23%;
-  padding: 12px;
-  border-bottom: 1px solid rgb(189, 192, 207);
-}
-
-.owner {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.2px;
-  line-height: 27px;
-  text-align: initial;
-}
-
-.bid-price-btc {
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.2px;
-  line-height: 27px;
-  text-align: initial;
-}
-
-.bid-price-fiat {
-  font-family: "PT Sans", sans-serif;
-  margin-top: 10px;
 }

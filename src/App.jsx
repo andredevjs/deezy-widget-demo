@@ -10,8 +10,12 @@ import "deezy-widget/dist/style.css";
 import "./App.css";
 
 function App() {
+  // get query string parameter inscriptionId
+  const urlParams = new URLSearchParams(window.location.search);
   const inscriptionId =
+    urlParams.get("inscriptionId") ||
     "97b58013212c065c78e66e3c69ea0750396a6c7e84578da03c06362f8f526501i0";
+
   return (
     <div className="App">
       <section className="section-auction">
