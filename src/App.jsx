@@ -1,13 +1,11 @@
-import {
-  CurrentBid,
-  InscriptionPreview,
-  BidWidget,
-  ListBids,
-} from "deezy-widget";
-// TODO: FIX
-
 import "deezy-widget/dist/style.css";
 import "./App.css";
+import { dynamicImportComponent } from "./util";
+
+const InscriptionPreview = dynamicImportComponent("InscriptionPreview");
+const ListBids = dynamicImportComponent("ListBids");
+const BidWidget = dynamicImportComponent("BidWidget");
+const CurrentBid = dynamicImportComponent("CurrentBid");
 
 function App() {
   // get query string parameter inscriptionId
